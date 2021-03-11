@@ -43,13 +43,60 @@
     // $a || $b : $a나 $b가 TRUE이면 TRUE를 반환
 
 
-    //조건문
-    if ( condition ):
-        statement;
-      endif;
-      // 중괄호 대신 endif 사용가능
-      
-    
+    // //조건문 ( // 풀고 보기)
+
+    // 중괄호 대신 endif 사용가능
+    // if ( condition ):
+    //     statement;
+    //   endif;
+
+    //   // elseif 띄어쓰기 안함
+    //   if ( condition1 ) {  
+    //     statement1;
+    //   } elseif ( condition2 ) {
+    //     statement2;
+    //   } else {
+    //     statement3;
+    //   }
+
+    //   // 중괄호 대신에 클론과 endif 사용 가능
+    //   if ( condition1 ):
+    //     statement1;
+    //   elseif ( condition2 ):
+    //     statement2;
+    //   else:
+    //     statement2;
+    //   endif;
+
+    //   // switch 문
+    //   switch ( $var ) {
+    //     case value1:
+    //       statement1;
+    //       break;
+    //     case value2:
+    //       statement2;
+    //       break;
+    //     ...
+    //     default:
+    //       statement3;
+    //   }
+
+    //   // 중괄호 대신 콜론과 endswitch를 사용 가능
+    //   switch ( $var ):
+    //     case val1:
+    //       statement1;
+    //       break;
+    //     case val2:
+    //       statement2;
+    //       break;
+    //     ...
+    //     default:
+    //       statement3;
+    //   endswitch;
+
+      //반복문 비슷함 but 중괄호 대신 endwhile endfor 사용가능
+
+
     ?>
 </body>
 </html>
