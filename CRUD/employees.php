@@ -30,8 +30,6 @@
                 $jb_sql_delete = "DELETE FROM employees WHERE emp_no = '$delete_emp_no';";
                 mysqli_query( $jb_conn, $jb_sql_delete );
                 echo '<p style="color: red;">Employee ' . $delete_emp_no . ' is deleted.</p>';
-              } else {
-                  echo '삭제할거없음';
               }
 
             //
